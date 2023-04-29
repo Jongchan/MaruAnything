@@ -1,0 +1,4 @@
+
+
+image_dir: /home/maru/data/VOCdevkit/VOC2012/JPEGImages
+image_ids_txt: /home/maru/data/VOCdevkit/VOC2012/ImageSets/Segmentation/train.txt
