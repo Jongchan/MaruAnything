@@ -11,7 +11,7 @@ data_dir = "/home/maru/model/MaruAnything/model/segments"
 
 parser = argparse.ArgumentParser()
 parser.add_argument("mysql_password", type=str, help="MySQL database password")
-parser.parse_args()
+args = parser.parse_args()
 
 def create_connection(host_name, user_name, user_password, db_name):
     connection = None
